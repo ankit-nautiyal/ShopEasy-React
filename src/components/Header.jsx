@@ -19,7 +19,7 @@ function Header() {
                     <div className='leftNav'>
                         <li className="logo">
                             <a href="/"> <img src="logo.png" alt="Logo" /> </a>
-                            <Link to="/">ShopEasy</Link>
+                            <Link to="/"> <strong>ShopEasy</strong></Link>
                         </li>
                             
                         <li>
