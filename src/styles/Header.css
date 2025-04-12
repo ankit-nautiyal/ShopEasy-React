@@ -24,6 +24,8 @@ nav button:hover {
     text-decoration: underline;
 }
 
+
+
 @media (max-width: 600px) {
     nav ul {
         flex-direction: column;

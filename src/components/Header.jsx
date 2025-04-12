@@ -13,17 +13,27 @@ function Header() {
 
     return (
         <header className="header">
-            <nav>
+            <nav className='navbar'>
                 <ul>
-                    <li>
-                        <Link to="/">Home</Link>
-                    </li>
-                    <li>
-                        <Link to="/cart">Cart ({cartCount})</Link>
-                    </li>
-                    <li>
-                        <button onClick={handleLogout}>Logout</button>
-                    </li>
+                    <div className='leftNav'>
+                        <li className="logo">
+                            <Link to="/">ShopEasy</Link>
+                        </li>
+                            
+                        <li>
+                            <Link to="/">Home</Link>
+                        </li>
+                    </div>
+                    
+                    <div className='rightNav'>
+                        <li>
+                            <Link to="/cart">Cart ({cartCount})</Link>
+                        </li>
+                        <li>
+                            <button onClick={handleLogout}>Logout</button>
+                        </li>
+                    </div>
+                    
                 </ul>
             </nav>
         </header>
