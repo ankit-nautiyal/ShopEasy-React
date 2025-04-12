@@ -28,26 +28,30 @@ function Login() {
             <h2>Login</h2>
             <form onSubmit={handleSubmit}>
                 <div>
-                    <label>Username</label>
+                    <label htmlFor="username" >Username:</label>
                     <input
                         type="text"
                         value={username}
                         onChange={(e) => setUsername(e.target.value)}
                         required
+                        placeholder="Enter username"
+                        id="username"
                     />
                 </div>
                 <div>
-                    <label>Password</label>
+                    <label htmlFor="password"  >Password:</label>
                     <input
                         type="password"
                         value={password}
                         onChange={(e) => setPassword(e.target.value)}
                         required
+                        placeholder="Enter password"
+                        id="password"
                     />
                 </div>
 
                 {error && <p className="error">{error}</p>}
-                
+
                 <button type="submit">Login</button>
             </form>
         </div>

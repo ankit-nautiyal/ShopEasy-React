@@ -6,6 +6,7 @@
 
 .login h2 {
   text-align: center;
+  margin-bottom: 40px;
 }
 
 .login form {
@@ -30,6 +31,8 @@
   color: white;
   border: none;
   cursor: pointer;
+  border-radius: 20px;
+  width: 300px;
 }
 
 .login button:hover {
@@ -39,6 +42,10 @@
 .error {
   color: red;
   text-align: center;
+}
+
+.login form label{
+  margin-right: 40px;
 }
 
 @media (max-width: 600px) {
