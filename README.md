@@ -162,10 +162,8 @@ shopping-website/
 
 ## Future Improvements
 
-- **Protected Routes**: Redirect to login if no JWT is found.
 - **Error Handling**: Display user-friendly messages for API failures.
 - **Styling**: Add animations or use a CSS framework like Tailwind.
-- **Social Icons**: Integrate real social media links with icons (e.g., `react-icons`).
 - **Local Storage for Cart**: Persist cart state across sessions.
 
 ## Contributing
@@ -176,9 +174,6 @@ shopping-website/
 4. Push to the branch (`git push origin feature/your-feature`).
 5. Open a pull request.
 
-## License
-
-This project is licensed under the MIT License.
 
 ## Acknowledgments
 
