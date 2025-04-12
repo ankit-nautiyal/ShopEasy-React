@@ -3,6 +3,38 @@
 
 ShopEasy is a responsive e-commerce website built as a front-end internship assignment. It uses React with the Fake Store API to provide a seamless shopping experience, including user authentication, product browsing, cart management, and a checkout process. The application features a clean UI, a mobile-first design, and global state management for the cart.
 
+---
+
+## Tech Stack
+
+- **Frontend**: React.js (Vite)
+- **Routing**: React Router v6
+- **State Management**: React Context API (for cart)
+- **HTTP Client**: Axios (for API calls)
+- **Styling**: Plain CSS (mobile-first)
+- **API**: [Fake Store API](https://fakestoreapi.com/docs)
+- **Build Tool**: Vite
+
+---
+
+## Project Screeshots:
+![image](https://github.com/user-attachments/assets/d3ec9b9d-fba4-4afd-b86b-6f996f89ab98)
+![image](https://github.com/user-attachments/assets/80d6c95c-fc5a-4a7d-ad26-5b523f347767)
+![image](https://github.com/user-attachments/assets/e237e402-d302-462c-9242-79086be89263)
+![image](https://github.com/user-attachments/assets/51a5abc8-1480-403b-99ee-224bbd8a420d)
+![image](https://github.com/user-attachments/assets/935320d6-90aa-4dca-b888-05342cd4a41e)
+![image](https://github.com/user-attachments/assets/377a9d0f-6b98-4dc7-83b9-cd62929b0f5f)
+![image](https://github.com/user-attachments/assets/2eab3a71-63ac-4a63-a2e2-04096d36da44)
+![image](https://github.com/user-attachments/assets/6ec60a36-0605-4c60-b0c9-a980089aa47d)
+![image](https://github.com/user-attachments/assets/82e6f4aa-b662-4ad6-818f-380ec9bf751f)
+![image](https://github.com/user-attachments/assets/c30f30f6-e06f-4ecf-a144-1743c77bfe6c)
+![image](https://github.com/user-attachments/assets/d4301588-97c2-4d8a-9d26-7d6b0724a870)
+![image](https://github.com/user-attachments/assets/cdbc764d-ebfa-4b72-b6cc-2b577a8a77c9)
+![image](https://github.com/user-attachments/assets/11509700-60de-43fb-bf09-e7c16867ddd7)
+![image](https://github.com/user-attachments/assets/fd9416c3-8c83-4ee8-a647-5f2e87b50106)
+
+
+
 ## Features
 
 - **Login Page**:
@@ -31,15 +63,7 @@ ShopEasy is a responsive e-commerce website built as a front-end internship assi
   - Mobile-first approach using plain CSS.
   - It adapts seamlessly to desktop and mobile devices.
 
-## Tech Stack
 
-- **Frontend**: React.js (Vite)
-- **Routing**: React Router v6
-- **State Management**: React Context API (for cart)
-- **HTTP Client**: Axios (for API calls)
-- **Styling**: Plain CSS (mobile-first)
-- **API**: [Fake Store API](https://fakestoreapi.com/docs)
-- **Build Tool**: Vite
 
 ## Directory Structure
 
