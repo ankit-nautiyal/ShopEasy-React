@@ -15,9 +15,10 @@ function Header() {
         <header className="header">
             <nav className='navbar'>
                 <ul className='navItems'>
+
                     <div className='leftNav'>
                         <li className="logo">
-                            <img src="logo.png" alt="Logo" />
+                            <a href="/"> <img src="logo.png" alt="Logo" /> </a>
                             <Link to="/">ShopEasy</Link>
                         </li>
                             

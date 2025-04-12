@@ -7,12 +7,16 @@ function Footer() {
         <footer className="footer">
             <div className="footer-content">
                 <div className="footer-section">
-                    <div className='name&logo'>
-                        <div><h3> <img src="logo.png" id='footer-logo' alt="" />ShopEasy</h3></div>
-                        <div><p>India's #1 Choice For Shopping</p></div>
-                        
-                        
+
+                <div className="name-logo">
+                    <div>
+                        <h3>
+                            <img src="logo.png" id="footer-logo" alt="Logo" />
+                            ShopEasy
+                        </h3>
                     </div>
+                    <div><p>India's #1 Choice For Shopping</p></div>
+                </div>
                     
                     </div>
                         <div className="footer-section">

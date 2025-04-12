@@ -64,19 +64,25 @@ body {
   border-top: 1px solid #555;
 }
 
-#footer-logo{
-    width: 30px;
-    height: 30px;
-    margin: 0 0.5rem;
-    /* margin-bottom: 1rem; */
+.name-logo {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  /* text-align: center; */
 }
 
-.name&logo{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
+.name-logo h3 {
+  display: flex;
+  /* align-items: center; */
+  gap: 0.5rem;
+  margin: 0;
 }
+
+#footer-logo {
+  width: 30px;
+  height: 30px;
+}
+
 @media (max-width: 600px) {
   .footer-content {
     grid-template-columns: 1fr;
