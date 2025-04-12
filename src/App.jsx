@@ -10,14 +10,15 @@ function App() {
   return (
     <>
         <Header />
-
-        <Routes>
-          <Route path="/login" element={<Login />} />
-          <Route path="/" element={<Home />} />
-          <Route path="/product/:id" element={<ProductDetail />} />
-          <Route path="/cart" element={<Cart />} />
-        </Routes>
-
+        <main style={{ flex: '1 0 auto' }}> {/* Main content grows to fill space */}
+          <Routes>
+            <Route path="/login" element={<Login />} />
+            <Route path="/" element={<Home />} />
+            <Route path="/product/:id" element={<ProductDetail />} />
+            <Route path="/cart" element={<Cart />} />
+          </Routes>
+        </main>
+      
         <Footer />
     </>
   );
