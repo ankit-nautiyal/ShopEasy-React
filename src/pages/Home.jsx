@@ -38,23 +38,28 @@ function Home() {
             <h2>Products</h2>
             <div className="filters">
                 <select value={selectedCategory} onChange={(e) => setSelectedCategory(e.target.value)}>
-                    <option value="">All Categories</option>
+                    <option value="">Category</option>
+
                     {categories.map((category) => (
                         <option key={category} value={category}>
-                        {category}
+                            {category}
                         </option>
                     ))}
+
                 </select>
+
                 <input
-                type="text"
-                placeholder="Search products..."
-                value={search}
-                onChange={(e) => setSearch(e.target.value)}
+                    type="text"
+                    placeholder="Search products..."
+                    value={search}
+                    onChange={(e) => setSearch(e.target.value)}
                 />
+
             </div>
+
             <div className="product-grid">
                 {filteredProducts.map((product) => (
-                <ProductCard key={product.id} product={product} />
+                    <ProductCard key={product.id} product={product} />
                 ))}
             </div>
         </div>
