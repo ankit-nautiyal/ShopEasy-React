@@ -14,9 +14,10 @@ function Header() {
     return (
         <header className="header">
             <nav className='navbar'>
-                <ul>
+                <ul className='navItems'>
                     <div className='leftNav'>
                         <li className="logo">
+                            <img src="logo.png" alt="Logo" />
                             <Link to="/">ShopEasy</Link>
                         </li>
                             
