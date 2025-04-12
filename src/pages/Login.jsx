@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import axios from 'axios';
 import '../styles/Login.css';
+import { toast } from 'react-toastify';
 
 function Login() {
     const [username, setUsername] = useState('');
@@ -17,9 +18,11 @@ function Login() {
                 password,
             });
             localStorage.setItem('token', response.data.token);
+            toast.success('Logged in successfully!');
             navigate('/');
         } catch (err) {
             setError('Invalid credentials');
+            toast.error('Invalid credentials!');
         }
     };
 

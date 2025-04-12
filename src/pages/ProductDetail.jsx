@@ -3,6 +3,7 @@ import { useParams } from 'react-router-dom';
 import axios from 'axios';
 import { useCart } from '../context/CartContext';
 import '../styles/ProductDetail.css';
+import { toast } from 'react-toastify';
 
 function ProductDetail() {
     const { id } = useParams();
@@ -27,7 +28,7 @@ function ProductDetail() {
                 <h2>{product.title}</h2>
                 <p>{product.description}</p>
                 <p className="price">${product.price}</p>
-                <button onClick={() => addToCart(product)}>Add to Cart</button>
+                <button onClick={() => {addToCart(product); toast.success(`${product.title} added to cart!`); }}>Add to Cart</button>
             </div>
         </div>
     );

@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { useCart } from '../context/CartContext';
 import Popup from '../components/Popup';
 import '../styles/Cart.css';
+import { toast } from 'react-toastify';
 
 function Cart() {
     const { cart, updateQuantity, removeItem, clearCart } = useCart();
@@ -48,7 +49,7 @@ function Cart() {
 
                                         <button
                                             className="remove"
-                                            onClick={() => removeItem(item.id)}
+                                            onClick={() => { removeItem(item.id); toast.success(`${item.title} removed from cart!`); }}
                                         >
                                             Remove
                                         </button>

@@ -1,6 +1,7 @@
 import { Link, useNavigate } from 'react-router-dom';
 import { useCart } from '../context/CartContext';
 import '../styles/Header.css';
+import { toast } from 'react-toastify';
 
 function Header() {
     const { cartCount } = useCart();
@@ -8,6 +9,7 @@ function Header() {
 
     const handleLogout = () => {
         localStorage.removeItem('token');
+        toast.success('Logged out successfully!');
         navigate('/login');
     };
 
