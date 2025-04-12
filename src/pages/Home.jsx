@@ -35,7 +35,7 @@ function Home() {
 
     return (
         <div className="home">
-            <h2>Products</h2>
+            
             <div className="filters">
                 <select value={selectedCategory} onChange={(e) => setSelectedCategory(e.target.value)}>
                     <option value="">Category</option>
