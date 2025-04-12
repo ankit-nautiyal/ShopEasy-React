@@ -1,10 +1,7 @@
-Below is a comprehensive and professional **README.md** file for your Shopping Website GitHub repository. It includes an overview, features, tech stack, directory structure, setup instructions, and more, tailored to the project you’ve built (including the Footer component). The README is designed to be clear, concise, and appealing for a front-end internship assignment.
-
----
 
 # ShopEasy - Shopping Website
 
-ShopEasy is a responsive e-commerce website built as a front-end internship assignment. It uses React with the Fake Store API to provide a seamless shopping experience, including user authentication, product browsing, cart management, and a checkout process. The application features a clean UI, mobile-first design, and global state management for the cart.
+ShopEasy is a responsive e-commerce website built as a front-end internship assignment. It uses React with the Fake Store API to provide a seamless shopping experience, including user authentication, product browsing, cart management, and a checkout process. The application features a clean UI, a mobile-first design, and global state management for the cart.
 
 ## Features
 
@@ -32,7 +29,7 @@ ShopEasy is a responsive e-commerce website built as a front-end internship assi
   - Responsive design with a dynamic copyright year.
 - **Responsive Design**:
   - Mobile-first approach using plain CSS.
-  - Adapts seamlessly to desktop and mobile devices.
+  - It adapts seamlessly to desktop and mobile devices.
 
 ## Tech Stack
 
@@ -91,7 +88,7 @@ shopping-website/
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/your-username/shopping-website.git
+   git clone https://github.com/ankit-nautiyal/ShopEasy-React.git
    cd shopping-website
    ```
 
@@ -168,8 +165,8 @@ This project is licensed under the MIT License.
 ---
 
 ### Notes for Customization
-- **Repository URL**: Replace `https://github.com/your-username/shopping-website.git` with your actual repo URL.
+- **Repository URL**: Replace `https://github.com/ankit-nautiyal/ShopEasy-React.git` with your actual repo URL.
 - **Screenshots**: You can add screenshots by placing them in a `screenshots/` folder and linking them in the README (e.g., `![Login Page](screenshots/login.png)`).
 - **Deployed Link**: If you deploy the app (e.g., on Vercel), add a "Live Demo" section with the URL.
 
-This README provides a professional overview for your GitHub repo, making it easy for reviewers to understand and set up the project. Let me know if you need help with GitHub setup, deployment, or additional sections!
+
