@@ -17,8 +17,9 @@ ShopEasy is a responsive e-commerce website that uses React with the Fake Store 
 
 ---
 
-## Project Screeshots:
+## Project Screenshots:
 ![image](https://github.com/user-attachments/assets/d3ec9b9d-fba4-4afd-b86b-6f996f89ab98)
+![image](https://github.com/user-attachments/assets/450ac38d-b679-4509-b156-205f88b9a7ef)
 ![image](https://github.com/user-attachments/assets/80d6c95c-fc5a-4a7d-ad26-5b523f347767)
 ![image](https://github.com/user-attachments/assets/e237e402-d302-462c-9242-79086be89263)
 ![image](https://github.com/user-attachments/assets/51a5abc8-1480-403b-99ee-224bbd8a420d)
