@@ -3,6 +3,7 @@
 
 ShopEasy is a responsive e-commerce website that uses React with the Fake Store API to provide a seamless shopping experience, including user authentication, product browsing, cart management, and a checkout process. The application features a clean UI, a mobile-first design, and global state management for the cart.
 
+
 ---
 
 ## Tech Stack
